@@ -1,0 +1,42 @@
+.principal{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedorBotones{
+    margin: 100px;
+    width: 500px;
+    display: flex;
+    grid-template-columns: repeat(3);
+    gap: 20px;
+
+
+}
+
+.boton{
+
+    margin: auto;
+    display: inline-flex;
+    width: 200px;
+    background: #141414;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: black;
+    color: white;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background: #ccc;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
